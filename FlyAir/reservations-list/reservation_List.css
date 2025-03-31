@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+}
+
+.main .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #393e42;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.main .navbar .logo {
+  font-size: 20px;
+  width: 40%;
+  color: white;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.main .navbar .logo h1 {
+  margin-bottom: 10px;
+}
+
+.main .navbar .nav {
+  width: 30%;
+}
+
+.main .navbar .nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main .navbar .nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.main .navbar .nav ul li:last-child a {
+  color: #f70b0b;
+}
+
+.main .navbar .nav ul a:hover {
+  color: #a3d1ff;
+}
+
+.main .navbar .nav ul li:last-child a:hover {
+  color: #ff0000;
+}
+
+.main .content {
+  width: 100%;
+  padding: 20px;
+}
+
+.main .content h1 {
+  color: #393e42;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main .content table {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 15px;
+  background-color: #393e42;
+  padding: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.main .content table td,
+th {
+  padding: 10px 15px;
+  text-align: center;
+  margin: 0;
+  color: white;
+  border: 1px solid black;
+}
+
+.main .content table td{
+    background-color: #f8f8f8;
+    color: black;
+}
+
+.main .content table tr td a{
+  text-decoration: none;
+}
+
+.main .content table tr:first-child th:first-child {
+  border-top-left-radius: 15px;
+}
+
+.main .content table tr:first-child th:last-child {
+  border-top-right-radius: 15px;
+}
+
+.main .content table tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+
+.main .content table tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+.main .content table form{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.main .content table tr td input {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #0b85d6;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.main .content table tr td input:hover {
+  background-color: rgb(4, 159, 225);
+  color: black;
+}
+
+.main .content table tr td #deleteReservation{
+  background-color: #f70b0b;
+  margin-left: 10px;
+}
+
+.main .footer{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #393e42;
+    margin-top: 30px;
+}
+
+.main .footer ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30%;
+}
+
+.main .footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.main .footer ul li a:hover{
+    color: #00ffc3;
+}

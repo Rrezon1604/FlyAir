@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(207, 216, 223);
+}
+
+.main{
+    width: 45%;
+    height: 70vh;
+    background-color: white;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25%;
+    margin-top: 2%;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px black;
+}
+
+.main div:first-child{
+    width: 100%;
+    text-align: center;
+    color: #808080;
+    margin-bottom: 15px;
+}
+
+.main div:nth-child(2){
+    margin-top: 15px;
+    width: 100%;
+}
+
+.main div:nth-child(2) p{
+    color: #808080;
+}
+
+.main div:nth-child(2) p span{
+    color: #4f4f4f;
+    font-weight: 600;
+}
+
+.main div:last-child{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main div:last-child button{
+    padding: 10px 20px;
+    background-color: #3fae2f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}

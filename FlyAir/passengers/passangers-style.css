@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+
+}
+
+.main .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #393e42;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.main .navbar .logo{
+    font-size: 20px;
+    width: 40%;
+    color: white;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.main .navbar .logo h1{
+    margin-bottom: 10px;
+}
+
+.main .navbar .nav{
+    width: 30%;
+}
+
+.main .navbar .nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main .navbar .nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.main .navbar .nav ul li:last-child a{
+    color: #f70b0b;
+}
+
+.main .navbar .nav ul a:hover{
+    color: #a3d1ff;
+}
+
+.main .navbar .nav ul li:last-child a:hover{
+    color: #ff0000;
+}
+
+.content{
+    width: 100%;
+    padding: 10px;  
+    margin-top: 25px;
+}
+
+.content h1{
+    color: #393e42;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.content .flightDetails{
+    width: 100%;
+    margin-bottom: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content .flightDetails h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #393e42;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.content .flightDetails p{
+    font-size: 18px;
+    margin-top: 5px;
+    color: #393e42;
+}
+
+.content .flightDetails p span{
+    font-weight: 600;
+    color: #1e1f1f;
+}
+
+.content .flightPassengers{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.content .flightPassengers h2{
+    color: #393e42;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.content .flightPassengers h2:first-child{
+    margin-bottom: 20px;
+}
+
+.main .content .flightPassengers .passenger{
+    width: 100%;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+.main .content .flightPassengers form .passenger label, select, input{
+    display: block;
+} 
+
+.main .content .flightPassengers form .passenger label{
+    margin-top: 10px;
+}
+
+.main .content .flightPassengers .passenger input, select,
+.main .content .flightPassengers .buttons input{
+    width: 100%;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: #ce2121;
+    margin-top: 5px;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main .content .flightPassengers form .buttons input[type="submit"]{
+    width: 15%;
+    background-color: #0b85d6;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.main .content .flightPassengers form .buttons input[type="submit"]:hover{
+    background-color: rgb(4, 159, 225);
+}
+
+.main .content .flightPassengers form .buttons #addPassengers,
+.main .content .flightPassengers form .buttons #removePassengers{
+    font-size: 18px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.main .content .flightPassengers .buttons #addPassengers{
+    background-color: #26ab18;
+    color: white;
+    border: none;
+}
+
+.main .content .flightPassengers .buttons #addPassengers:hover{
+    background-color: #2cdf18;
+}
+
+.main .content .flightPassengers .buttons #removePassengers{
+    background-color: #ff3737;
+    border: none;
+    margin-left: 5px;
+    color: white;
+}
+
+.main .content .flightPassengers .buttons #removePassengers:hover{
+    background-color: #ff5757;
+}
+
+.main .confirmOrDiscard{
+    padding: 10px;
+    width: 100%;
+    text-align: end;
+}
+
+.main .confirmOrDiscard form input{
+    display: inline;
+    font-size: 18px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.main .confirmOrDiscard form input:first-child{
+    background-color: #ff3737;
+    margin-right: 10px;
+}
+
+.main .confirmOrDiscard form input:first-child:hover{
+    background-color: #ff5757;
+}
+
+.main .confirmOrDiscard form input:last-child{
+    background-color: #26ab18;
+}
+
+.main .confirmOrDiscard form input:last-child:hover{
+    background-color: #2cdf18;
+}
+
+.confirmPassangers {
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #d1fbe5;
+    font-size: 18px;
+    color: green;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1c5e8a;
+    padding: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 80%;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+  
+table td,
+th {
+    padding: 10px 15px;
+    text-align: center;
+    margin: 0;
+    color: white;
+    border: 1px solid black;
+}
+  
+.confirmedpassengers{
+    margin-left: 15px;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #393e42;
+}

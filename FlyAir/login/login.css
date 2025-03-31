@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login{
+    width: 100%;
+    height: 100vh;
+    padding-left: 35%;
+    padding-top: 8%;
+    background-color: #393e42;
+}
+
+.login .loginform{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.login .loginform .loginh1{
+    text-align: center;
+    color: #393e42;
+}
+
+.login .loginform form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login .loginform form label, input{
+    width: 100%;
+    font-size: 18px;
+}
+
+.login .loginform form label{
+    margin-top: 20px;
+}
+
+.login .loginform form input{
+    padding: 7px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #6b6c6d;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.login .loginform form #login{
+    margin-top: 30px;
+    background-color: #2d7ccb;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+}
+
+.login .loginform form #login:hover{
+    background-color: #4193e5;
+}
+
+.login .loginform .text{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.login .loginform .text a{
+    text-decoration: none;
+    color: #2d7ccb;
+}
+
+
+/* ========================================================================= */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

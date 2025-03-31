@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+}
+
+.main .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #393e42;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.main .navbar .logo {
+  font-size: 20px;
+  width: 40%;
+  color: white;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.main .navbar .logo h1 {
+  margin-bottom: 10px;
+}
+
+.main .navbar .nav {
+  width: 30%;
+}
+
+.main .navbar .nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main .navbar .nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.main .navbar .nav ul li:last-child a {
+  color: #f70b0b;
+}
+
+.main .navbar .nav ul a:hover {
+  color: #a3d1ff;
+}
+
+.main .navbar .nav ul li:last-child a:hover {
+  color: #ff0000;
+}
+
+.main .content {
+  width: 100%;
+  padding: 20px;
+}
+
+.main .content div:first-child {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.main .content div:first-child h1 {
+  color: #393e42;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main .content .reservationPayment {
+  width: 100%;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main .content .reservationPayment h2 {
+  color: #393e42;
+}
+
+.main .content .reservationPayment p {
+  margin-top: 10px;
+  color: #393e42;
+}
+
+.main .content .reservationPayment p span {
+  color: #1c1d1d;
+  font-weight: 600;
+}
+
+.main .content .reservationPayment h3 {
+  color: #393e42;
+  margin-top: 20px;
+}
+
+.main .content .reservationPayment table {
+  margin-top: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ce2121;
+  padding: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.main .content .reservationPayment table td,
+th {
+  padding: 10px 15px;
+  margin: 0;
+  color: white;
+  border: 1px solid white;
+}
+
+.main .content .reservationPayment table td {
+  background-color: #e8e5e4;
+  color: black;
+}
+
+.main .content .paymentInformation {
+  width: 95%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.main .content .paymentInformation h2 {
+  color: #393e42;
+}
+
+.main .content .paymentInformation form label,
+input {
+  display: block;
+  font-size: 18px;
+}
+
+.main .content .paymentInformation form label {
+  margin-top: 15px;
+}
+
+.main .content .paymentInformation form input {
+  margin-top: 5px;
+  padding: 6px 10px;
+  background-color: #ce2121;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.main .content .paymentInformation form input[type="submit"] {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #1f94ca;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.main .content .paymentInformation form input[type="submit"]:hover {
+  background-color: #1faaeb;
+}
+
+.main .content .paymentInformation form #discard {
+  background-color: #f70b0b;
+}
+
+.main .content .paymentInformation form #discard:hover {
+  background-color: #d71d1d;
+}
+
+.returnInfo {
+  margin-top: 50px;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 250px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 45% !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 15px;
+  text-align: start;
+  align-items: start;
+}
+
+.modal-content form input{
+  width: 90% !important;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

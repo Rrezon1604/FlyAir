@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+}
+
+.main .navbar {
+  width: 100%;
+  background-color: #393e42;
+  padding: 10px;
+  padding-bottom: 15px;
+  padding-left: 45%;
+}
+
+.main .navbar .nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.main .navbar .nav h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 45px;
+}
+
+.main .navbar .nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.main .content {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.main .content div:first-child {
+  width: 100%;
+  color: #69696a;
+  padding-left: 50px;
+}
+
+.main .content .searchForm {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  padding: 10px 50px;
+  margin-top: 20px;
+}
+
+.main .content .searchForm form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.main .content .searchForm form input,
+select {
+  width: 32%;
+  padding: 10px 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: #393e42 !important;
+  border: 1px solid #969696 !important;
+  outline: none;
+  border-radius: 8px;
+}
+
+.main .content .searchForm form input[type="submit"] {
+  background-color: #0b85d6;
+  color: white !important;
+  cursor: pointer;
+}
+
+.main .content .searchForm form input[type="submit"]:hover {
+  background-color: #2092df;
+}
+
+.main .content .manageFlightsTable {
+  width: 98%;
+  padding: 10px 20px;
+  height: 25rem;
+  overflow-y: scroll;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 1%;
+}
+
+.main .content .manageFlightsTable table {
+  font-size: 18px;
+  border-radius: 15px;
+  background-color: #393e42;
+  padding: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.main .content .manageFlightsTable table td,
+th {
+  padding: 10px 15px;
+  text-align: center;
+  margin: 0;
+  color: white;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.main .content .manageFlightsTable table td {
+  background-color: #f1f1f1;
+  color: #3d3e3e;
+}
+
+.main .content .manageFlightsTable table tr:first-child th:first-child {
+  border-top-left-radius: 15px;
+}
+
+.main .content .manageFlightsTable table tr:first-child th:last-child {
+  border-top-right-radius: 15px;
+}
+
+.main .content .manageFlightsTable table tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+
+.main .content .manageFlightsTable table tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+.main .content .manageFlightsTable table tr td .inputsDiv{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.main .content .manageFlightsTable table tr td input{
+  color: #3d3e3e;
+  background-color: transparent;
+  border-radius: 0;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 16px;
+  text-align: start;
+  width: 100%;
+}
+
+.main .content .manageFlightsTable table tr td input[type="submit"]{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #26c73b;
+}
+
+
+.main .content .manageFlightsTable table tr td input[type="submit"]:hover {
+  background-color: #3ed452;
+  color: black;
+}
+
+.main .content .manageFlightsTable table tr td #deleteFlight{
+  background-color: #d74242 !important;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+.main .content .manageFlightsTable table tr td #deleteFlight:hover{
+  color: black !important;
+}
+
+.main .content .manageFlightsTable table tr td select {
+  background-color: #b3b3b3;
+  color: black;
+}
+
+.main .content .addh2{
+  padding-left: 50px;
+  color: #393e42;
+  margin-top: 70px;
+  margin-bottom: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main .content #addNewFlight{
+  margin-bottom: 100px;
+  padding: 0px 50px;
+}
